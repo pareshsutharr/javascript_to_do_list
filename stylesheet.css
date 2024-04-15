@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.list-group-item {
+    cursor: grab;
+}
+
+.list-group-item:hover {
+    background-color: #f0f0f0;
+}
+
+.delete-btn {
+    cursor: pointer;
+}
+#taskInput {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+}
+
+#taskInput:focus {
+    outline: none;
+    border-color: #6c757d;
+}
+
+#taskInput::placeholder {
+    color: #999;
+}
+
+#taskInput:hover {
+    border-color: #6c757d;
+}
+
+.input-group-append button {
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.input-group-append button:hover {
+    background-color: #28a745;
+}
